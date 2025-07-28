@@ -1,21 +1,48 @@
-# Landing page
+Portfolio Landing Page
 
-> ❗❗ You will complete this task in the topic **Landing**.
-> Now just choose a design and do the parts from the videos
+Visit the Website | View Figma Design
 
-Choose a design for your landing page:
-- [MET landing](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
-- [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-- [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
-- [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
+This landing page project demonstrates a responsive and accessible design using HTML5, SCSS, and JavaScript. Built with attention to performance and cross-browser compatibility.
 
-Follow the videos in this and next lessons to implement the page block by block
-- Here is [the design from the video](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0) (❗❗ DO NOT implement this design ❗❗ choose one of the options above ❗❗ ☝️)
-- Start writing styles in the `main.scss` file. It is be explained in the `Sass` lesson
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar;
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished;
-- Deploy and create a Pull Request with a [DEMO LINK](https://myuriy81.github.io/layout_landing-page/)
+🔍 Project Overview
+Technologies Used:
+HTML5, SCSS, JavaScript
+Build Tool:
+Parcel
+Testing Tools:
+Cypress, Jest, Mochawesome
+Linting/Code Style:
+ESLint, Stylelint, Prettier, linthtml, BEM Linter
+⚙️ Methodology
+BEM (Block Element Modifier) naming convention
+Mobile-First responsive layout
+SCSS with variables, mixins, and nesting for better maintainability
+Flexbox and CSS Grid for layout
+🚀 Optimization & Performance
+HTML/CSS validated via W3C
+Optimized images (WebP, responsive sizes)
+Lazy loading enabled (loading="lazy")
+Fonts preloaded where applicable
+JS loaded with defer to avoid render-blocking
+📱 Responsive Design
+Adapted for Desktop, Tablet, and Mobile
+No horizontal scroll at any breakpoint
+scroll-behavior: smooth applied
+Uses reset.css for pixel-perfect consistency across browsers
+✨ Features
+Semantic HTML5 structure
+Accessibility-conscious markup
+CSS animations for visual polish
+Fully functional navigation and UI interactions
+Independent from external font/icon libraries (in-house SVGs used)
+GSAP-compatible structure for animation extension
+🧪 Testing & Linting
+Unit and e2e testing with Jest and Cypress
+Visual test reporting via Mochawesome
+Code linted with Stylelint, ESLint, linthtml, BEM linter
+Auto-formatting via Prettier
+📎 Additional Info
+Favicon included
+Preloaded critical fonts and assets
+All animations optimized with transform and opacity
 
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
