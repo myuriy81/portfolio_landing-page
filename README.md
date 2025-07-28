@@ -4,45 +4,40 @@ Visit the Website | View Figma Design
 
 This landing page project demonstrates a responsive and accessible design using HTML5, SCSS, and JavaScript. Built with attention to performance and cross-browser compatibility.
 
-🔍 Project Overview
-Technologies Used:
-HTML5, SCSS, JavaScript
-Build Tool:
-Parcel
-Testing Tools:
-Cypress, Jest, Mochawesome
-Linting/Code Style:
-ESLint, Stylelint, Prettier, linthtml, BEM Linter
-⚙️ Methodology
+🚀 Project Overview
+
+Technologies Used: HTML5, SCSS, JavaScript
+Build Tool: Parcel
+Testing Tools: Cypress, Jest, Mochawesome
+Linting/Code Style: ESLint, Stylelint, Prettier, linthtml, BEM Linter
+🧱 Methodology
+
 BEM (Block Element Modifier) naming convention
 Mobile-First responsive layout
 SCSS with variables, mixins, and nesting for better maintainability
-Flexbox and CSS Grid for layout
-🚀 Optimization & Performance
+Layout with Flexbox and CSS Grid
+📈 Optimization & Performance
+
 HTML/CSS validated via W3C
 Optimized images (WebP, responsive sizes)
-Lazy loading enabled (loading="lazy")
-Fonts preloaded where applicable
-JS loaded with defer to avoid render-blocking
-📱 Responsive Design
-Adapted for Desktop, Tablet, and Mobile
+Lazy loading (loading="lazy")
+Fonts preloaded and JS deferred to avoid render-blocking
+Preloaded critical fonts and assets
+Reset.css for pixel-perfect base
 No horizontal scroll at any breakpoint
-scroll-behavior: smooth applied
-Uses reset.css for pixel-perfect consistency across browsers
+Smooth scrolling with scroll-behavior: smooth
 ✨ Features
+
 Semantic HTML5 structure
 Accessibility-conscious markup
 CSS animations for visual polish
 Fully functional navigation and UI interactions
-Independent from external font/icon libraries (in-house SVGs used)
-GSAP-compatible structure for animation extension
-🧪 Testing & Linting
-Unit and e2e testing with Jest and Cypress
-Visual test reporting via Mochawesome
-Code linted with Stylelint, ESLint, linthtml, BEM linter
+No external libraries — in-house SVGs only
+GSAP-compatible structure (no GSAP used yet)
 Auto-formatting via Prettier
-📎 Additional Info
 Favicon included
-Preloaded critical fonts and assets
-All animations optimized with transform and opacity
+🧪 Testing & Linting
 
+Unit and E2E testing with Jest and Cypress
+Visual test reporting via Mochawesome
+Code linted with ESLint, Stylelint, linthtml, BEM linter
